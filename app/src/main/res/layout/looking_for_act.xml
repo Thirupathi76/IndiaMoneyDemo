@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="-    Loan"
+                android:textColor="#0ff0f0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/personal_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Personal Laon" />
+
+            <TextView
+                android:id="@+id/education_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/personal_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Education Loan" />
+
+            <TextView
+                android:id="@+id/home_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/education_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Home Loan" />
+
+            <TextView
+                android:id="@+id/Loan_Against_Property"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Loan Against Property" />
+
+            <TextView
+                android:id="@+id/Loan_Against_Security"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Loan_Against_Property"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Loan Against Security" />
+
+            <TextView
+                android:id="@+id/Business_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Loan_Against_Security"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Business Loan" />
+
+            <TextView
+                android:id="@+id/car_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Business_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Car Loan" />
+
+            <TextView
+                android:id="@+id/Two_Wheeler_Loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/car_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Two Wheeler Loan" />
+
+            <TextView
+                android:id="@+id/gold_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Two_Wheeler_Loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Gold Loan" />
+
+            <TextView
+                android:id="@+id/commercial_Vehicle_loan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gold_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Commercial Vehicle Loan" />
+
+            <TextView
+                android:id="@+id/Credit_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/commercial_Vehicle_loan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Credit Card" />
+
+            <TextView
+                android:id="@+id/Reverse_morlgage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Credit_card"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Reverse Morlgage" />
+
+            <TextView
+                android:id="@+id/Property"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Reverse_morlgage"
+                android:layout_marginTop="5dp"
+                android:text="-   Property"
+                android:textColor="#0ff0f0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Residential_Apartment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Property"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Residential Apartment" />
+
+            <TextView
+                android:id="@+id/Independent_house_villa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Residential_Apartment"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Independent House/Villa" />
+
+            <TextView
+                android:id="@+id/Residential_Land"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Independent_house_villa"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Residential Land" />
+
+            <TextView
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Residential_Land"
+                android:layout_marginTop="5dp"
+                android:text="-    Save"
+                android:textColor="#0ff0f0"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/Current_Account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/save"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Curent Account" />
+
+            <TextView
+                android:id="@+id/Endowment_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Current_Account"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Endowment Plan" />
+
+            <TextView
+                android:id="@+id/Fixed_Deposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Endowment_plan"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Fixed Deposit" />
+
+            <TextView
+                android:id="@+id/Infrastructure_Bonds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Fixed_Deposit"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Infrastructure Bonds" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

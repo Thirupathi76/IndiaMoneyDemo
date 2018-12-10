@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "801741645298",
+    "firebase_url": "https://indiamoneydemo.firebaseio.com",
+    "project_id": "indiamoneydemo",
+    "storage_bucket": "indiamoneydemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801741645298:android:1eba20a82015780e",
+        "android_client_info": {
+          "package_name": "com.demo.indiamoneydemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801741645298-e86hpqk29gh5itlq22pvf84nlpmbctum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demo.indiamoneydemo",
+            "certificate_hash": "9499bcfa0b4543ed19d57d0468bfffbed7b2bfa5"
+          }
+        },
+        {
+          "client_id": "801741645298-djvcgnturofctj4i0kd59imoftlqop4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzF11PMcOktBcAQQnDGp6HkPQrfgc49fo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801741645298-djvcgnturofctj4i0kd59imoftlqop4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
